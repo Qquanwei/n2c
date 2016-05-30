@@ -10,7 +10,6 @@ function n2c(num){
     '8':'亿',
   };
   let an=[];
-  num=num+'';
   num=(num+'').replace(/^0+/,'').replace(/0{2,}/,function(w){return '.'.repeat(w.length)}).replace(/0$/,'.')
   let length=num.length;
   function getWeight(index,only){
