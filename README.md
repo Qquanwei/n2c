@@ -1,4 +1,5 @@
-# n2c[![Build Status](https://travis-ci.org/Qquanwei/n2c.svg?branch=master)](https://travis-ci.org/Qquanwei/n2c)
+[![Build Status](https://travis-ci.org/Qquanwei/n2c.svg?branch=master)](https://travis-ci.org/Qquanwei/n2c)
+# n2c
   convert number to chinese
 
 ## Quick:
