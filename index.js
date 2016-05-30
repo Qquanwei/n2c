@@ -23,5 +23,4 @@ function n2c(num){
     return convert[iter]+(iter!=='0'?getWeight(length-index-1,iter==='.'):'');
   }).join('');
 }
-
 module.exports=n2c;
