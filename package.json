@@ -13,5 +13,16 @@
   },
   "dependencies": {
     "chai": "^3.5.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qquanwei/n2c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qquanwei/n2c/issues"
+  },
+  "homepage": "https://github.com/Qquanwei/n2c#readme"
 }
