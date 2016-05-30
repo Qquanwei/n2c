@@ -1,0 +1,17 @@
+{
+  "name": "n2c",
+  "version": "1.0.0",
+  "description": "将数字转换为中文",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*.js"
+  },
+  "author": "Qquanwei",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
