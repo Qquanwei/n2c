@@ -10,8 +10,11 @@ describe('n2c',function(){
   });
 
   it('zero test',function(){
+    console.log('1',n2c('30000000000000000'));
+    console.log('1000',n2c(1000));
     assert(n2c('1000')==='一千')
     assert(n2c('001000201')==='一百万二百零一');
+    assert(n2c('10000000000')==='一百亿');
   });
 
 });
