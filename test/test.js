@@ -4,6 +4,7 @@ describe('n2c',function(){
   it('base test',function(){
       var s=Object.keys('s'.repeat(11)).map(n2c).join('');
       assert(s==='零一二三四五六七八九十');
+      assert(n2c(3101111)==='三百一十万一千一百一十一');
   });
   it('123 convert 一百二十三',function(){
     assert(n2c('123')==='一百二十三');
@@ -18,6 +19,7 @@ describe('n2c',function(){
     assert(n2c('001000201')==='一百万二百零一');
     assert(n2c('100000000')==='一亿');
     assert(n2c('10001')==='一万零一')
+    assert(n2c('3030009')==='三百零三万零九');
   });
 
   it('test 十',function(){
