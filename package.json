@@ -1,6 +1,6 @@
 {
   "name": "n2c",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "convert number to chinese",
   "main": "index.js",
   "scripts": {
