@@ -23,7 +23,7 @@ function n2c(num){
       if(index<=i) return '';
       if((length-index-1)<=2&&(/\.[1-9]/.test(array.slice(index,index+2).join('')))) return '零';
       return convert[iter]+((iter!=='0')?getWeight(length-index-1,iter==='.'):'');
-    }).join('')+('亿'.repeat(deep));
+    }).join('').replace(/^一十/g,'十')+('亿'.repeat(deep));
   })(an)
 
 }

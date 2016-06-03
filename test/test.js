@@ -16,4 +16,9 @@ describe('n2c',function(){
     assert(n2c('10001')==='一万零一')
   });
 
+  it('test 十',function(){
+    assert(n2c('1000000000')==='十亿');
+    assert(n2c('2010')==='二千零一十');
+  });
+
 });

@@ -1,6 +1,6 @@
 {
   "name": "n2c",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "convert number to chinese",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/Qquanwei/n2c/issues"
   },
-  "homepage": "https://github.com/Qquanwei/n2c#readme"
+  "homepage": "https://github.com/Qquanwei/n2c#readme",
+  "keywords": [
+    "number",
+    "chinese",
+    "convert"
+  ]
 }
