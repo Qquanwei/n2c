@@ -3,6 +3,7 @@ function n2c(num){
   let convert = { '0':'零', '1':'一', '2':'二', '3':'三', '4':'四', '5':'五', '6':'六', '7':'七', '8':'八', '9':'九','.':'' };
   let weight= { '0':'', '1':'十', '2':'百', '3':'千' };
   let an=[];
+  if(num==0) return '零';
   num=(num+'').replace(/^0+/,'').replace(/0{2,}/g,function(w){return '.'.repeat(w.length)}).replace(/0$/,'.');
   function getWeight(index,only){
     if(index<4) return !only?weight[index]:'';

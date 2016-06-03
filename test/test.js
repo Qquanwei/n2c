@@ -1,6 +1,10 @@
 var n2c = require('../index.js');
 var assert = require('chai').assert;
 describe('n2c',function(){
+  it('base test',function(){
+      var s=[0,1,2,3,4,5,6,7,8,9,10].map(n2c).join('');
+      assert(s==='零一二三四五六七八九十');
+  });
   it('123 convert 一百二十三',function(){
     assert(n2c('123')==='一百二十三');
   });
