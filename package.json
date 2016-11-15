@@ -1,36 +1,35 @@
 {
-    "name": "n2c",
-    "version": "1.0.8",
-    "description": "convert number to chinese",
-    "main": "index.js",
-    "scripts": {
-        "test": "./node_modules/mocha/bin/mocha test/*.js"
-    },
-    "author": "Qquanwei",
-    "license": "ISC",
-    "devDependencies": {
-        "mocha": "^2.5.3"
-    },
-    "dependencies": {
-        "chai": "^3.5.0"
-    },
-    "directories": {
-        "test": "test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Qquanwei/n2c.git"
-    },
-    "bugs": {
-        "url": "https://github.com/Qquanwei/n2c/issues"
-    },
-    "homepage": "https://github.com/Qquanwei/n2c#readme",
-    "keywords": [
-        "number",
-        "chinese",
-        "convert",
-        "数字",
-        "中文",
-        "数字转中文"
-    ]
+  "name": "n2c",
+  "version": "1.0.9",
+  "description": "convert number to chinese",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*.js"
+  },
+  "author": "Qquanwei",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qquanwei/n2c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qquanwei/n2c/issues"
+  },
+  "homepage": "https://github.com/Qquanwei/n2c#readme",
+  "keywords": [
+    "number",
+    "chinese",
+    "convert",
+    "数字",
+    "中文",
+    "数字转中文"
+  ]
 }
