@@ -34,7 +34,7 @@ module.exports=function(num){
     strnum = strnum.replace(/^0+/, '').replace(/0/g, function(w) {
       return '.'.repeat(w.length)
     }).replace(/0$/, '.');
-    var array = Object.keys(strnum).map(x => strnum[x]);
+    var array = Object.keys(strnum).map(function(x) {return strnum[x]});
     var length = array.length;
     if (array[length - 1 - 6] == '.' && array[length - 1 - 5] != '.') array[length - 1 - 6] = '0';
     if (array[length - 1 - 5] == '.' && array[length - 1 - 4] != '.') array[length - 1 - 5] = '0';
