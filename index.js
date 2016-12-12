@@ -1,7 +1,7 @@
 "use strict"
 module.exports=function(num){
   if (num == 0) return '零';
-  let convert = {
+  var convert = {
     '0': '零',
     '1': '一',
     '2': '二',
@@ -14,7 +14,7 @@ module.exports=function(num){
     '9': '九',
     '.': ''
   };
-  let weight = {
+  var weight = {
     '0': '',
     '1': '十',
     '2': '百',
@@ -34,8 +34,8 @@ module.exports=function(num){
     strnum = strnum.replace(/^0+/, '').replace(/0/g, function(w) {
       return '.'.repeat(w.length)
     }).replace(/0$/, '.');
-    let array = Object.keys(strnum).map(x => strnum[x]);
-    let length = array.length;
+    var array = Object.keys(strnum).map(x => strnum[x]);
+    var length = array.length;
     if (array[length - 1 - 6] == '.' && array[length - 1 - 5] != '.') array[length - 1 - 6] = '0';
     if (array[length - 1 - 5] == '.' && array[length - 1 - 4] != '.') array[length - 1 - 5] = '0';
     return array.map(function(iter, index) {
