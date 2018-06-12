@@ -1,18 +1,23 @@
 {
   "name": "n2c",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "convert number to chinese",
-  "main": "index.js",
+  "main": "index.dist.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*.js"
+    "test": "./node_modules/mocha/bin/mocha test/*.js",
+    "build": "babel index.js --out-file index.dist.js"
   },
   "author": "Qquanwei",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
   "directories": {
     "test": "test"
   },
