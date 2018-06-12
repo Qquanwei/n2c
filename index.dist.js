@@ -1,6 +1,11 @@
 "use strict";
 
-import _Object$keys from 'babel-runtime/core-js/object/keys';
+var _keys = require('babel-runtime/core-js/object/keys');
+
+var _keys2 = _interopRequireDefault(_keys);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 module.exports = function (num) {
   if (num == 0) return '零';
   var convert = {
@@ -34,7 +39,7 @@ module.exports = function (num) {
     strnum = strnum.replace(/^0+/, '').replace(/0/g, function (w) {
       return '.'.repeat(w.length);
     }).replace(/0$/, '.');
-    var array = _Object$keys(strnum).map(function (x) {
+    var array = (0, _keys2.default)(strnum).map(function (x) {
       return strnum[x];
     });
     var length = array.length;

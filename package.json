@@ -1,6 +1,6 @@
 {
   "name": "n2c",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "convert number to chinese",
   "main": "index.dist.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
