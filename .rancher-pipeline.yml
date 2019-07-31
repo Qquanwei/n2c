@@ -1,0 +1,10 @@
+stages:
+- name: deploy
+  steps:
+  - applyAppConfig:
+      catalogTemplate: cattle-global-data:helm-mongodb
+      version: 7.0.0
+      name: n2c
+      targetNamespace: local
+timeout: 60
+notification: {}
